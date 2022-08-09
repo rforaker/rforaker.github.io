@@ -102,7 +102,7 @@ businessHours.forEach(function(currentHour) {
 
 // Gets the current date, then displays that date in the element ID currentDay
 function displayDate() {
-    var currentDate = moment().format('dddd, MMMM Do');
+    var currentDate = moment().format('dddd, MM/D/YY');
     $("#currentDay").text(currentDate);
 }
 
